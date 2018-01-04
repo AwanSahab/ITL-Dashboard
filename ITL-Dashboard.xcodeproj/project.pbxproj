@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA08A3B21FFE50120043DCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08A3B11FFE50120043DCA3 /* AppDelegate.swift */; };
+		FA08A3B41FFE50120043DCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08A3B31FFE50120043DCA3 /* ViewController.swift */; };
+		FA08A3B71FFE50120043DCA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA08A3B51FFE50120043DCA3 /* Main.storyboard */; };
+		FA08A3BA1FFE50120043DCA3 /* ITL_Dashboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA08A3B81FFE50120043DCA3 /* ITL_Dashboard.xcdatamodeld */; };
+		FA08A3BC1FFE50120043DCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA08A3BB1FFE50120043DCA3 /* Assets.xcassets */; };
+		FA08A3BF1FFE50120043DCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA08A3BD1FFE50120043DCA3 /* LaunchScreen.storyboard */; };
+		FA08A3CA1FFE50120043DCA3 /* ITL_DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08A3C91FFE50120043DCA3 /* ITL_DashboardTests.swift */; };
+		FA08A3D51FFE50120043DCA3 /* ITL_DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08A3D41FFE50120043DCA3 /* ITL_DashboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA08A3C61FFE50120043DCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA08A3A61FFE50120043DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA08A3AD1FFE50120043DCA3;
+			remoteInfo = "ITL-Dashboard";
+		};
+		FA08A3D11FFE50120043DCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA08A3A61FFE50120043DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA08A3AD1FFE50120043DCA3;
+			remoteInfo = "ITL-Dashboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA08A3AE1FFE50120043DCA3 /* ITL-Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITL-Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA08A3B11FFE50120043DCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA08A3B31FFE50120043DCA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA08A3B61FFE50120043DCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA08A3B91FFE50120043DCA3 /* ITL_Dashboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ITL_Dashboard.xcdatamodel; sourceTree = "<group>"; };
+		FA08A3BB1FFE50120043DCA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA08A3BE1FFE50120043DCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA08A3C01FFE50120043DCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA08A3C51FFE50120043DCA3 /* ITL-DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITL-DashboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA08A3C91FFE50120043DCA3 /* ITL_DashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITL_DashboardTests.swift; sourceTree = "<group>"; };
+		FA08A3CB1FFE50120043DCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA08A3D01FFE50120043DCA3 /* ITL-DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITL-DashboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA08A3D41FFE50120043DCA3 /* ITL_DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITL_DashboardUITests.swift; sourceTree = "<group>"; };
+		FA08A3D61FFE50120043DCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA08A3AB1FFE50120043DCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA08A3C21FFE50120043DCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA08A3CD1FFE50120043DCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA08A3A51FFE50120043DCA3 = {
+			isa = PBXGroup;
+			children = (
+				FA08A3B01FFE50120043DCA3 /* ITL-Dashboard */,
+				FA08A3C81FFE50120043DCA3 /* ITL-DashboardTests */,
+				FA08A3D31FFE50120043DCA3 /* ITL-DashboardUITests */,
+				FA08A3AF1FFE50120043DCA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA08A3AF1FFE50120043DCA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA08A3AE1FFE50120043DCA3 /* ITL-Dashboard.app */,
+				FA08A3C51FFE50120043DCA3 /* ITL-DashboardTests.xctest */,
+				FA08A3D01FFE50120043DCA3 /* ITL-DashboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA08A3B01FFE50120043DCA3 /* ITL-Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FA08A3B11FFE50120043DCA3 /* AppDelegate.swift */,
+				FA08A3B31FFE50120043DCA3 /* ViewController.swift */,
+				FA08A3B51FFE50120043DCA3 /* Main.storyboard */,
+				FA08A3BB1FFE50120043DCA3 /* Assets.xcassets */,
+				FA08A3BD1FFE50120043DCA3 /* LaunchScreen.storyboard */,
+				FA08A3C01FFE50120043DCA3 /* Info.plist */,
+				FA08A3B81FFE50120043DCA3 /* ITL_Dashboard.xcdatamodeld */,
+			);
+			path = "ITL-Dashboard";
+			sourceTree = "<group>";
+		};
+		FA08A3C81FFE50120043DCA3 /* ITL-DashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA08A3C91FFE50120043DCA3 /* ITL_DashboardTests.swift */,
+				FA08A3CB1FFE50120043DCA3 /* Info.plist */,
+			);
+			path = "ITL-DashboardTests";
+			sourceTree = "<group>";
+		};
+		FA08A3D31FFE50120043DCA3 /* ITL-DashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA08A3D41FFE50120043DCA3 /* ITL_DashboardUITests.swift */,
+				FA08A3D61FFE50120043DCA3 /* Info.plist */,
+			);
+			path = "ITL-DashboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA08A3AD1FFE50120043DCA3 /* ITL-Dashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA08A3D91FFE50120043DCA3 /* Build configuration list for PBXNativeTarget "ITL-Dashboard" */;
+			buildPhases = (
+				FA08A3AA1FFE50120043DCA3 /* Sources */,
+				FA08A3AB1FFE50120043DCA3 /* Frameworks */,
+				FA08A3AC1FFE50120043DCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ITL-Dashboard";
+			productName = "ITL-Dashboard";
+			productReference = FA08A3AE1FFE50120043DCA3 /* ITL-Dashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA08A3C41FFE50120043DCA3 /* ITL-DashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA08A3DC1FFE50120043DCA3 /* Build configuration list for PBXNativeTarget "ITL-DashboardTests" */;
+			buildPhases = (
+				FA08A3C11FFE50120043DCA3 /* Sources */,
+				FA08A3C21FFE50120043DCA3 /* Frameworks */,
+				FA08A3C31FFE50120043DCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA08A3C71FFE50120043DCA3 /* PBXTargetDependency */,
+			);
+			name = "ITL-DashboardTests";
+			productName = "ITL-DashboardTests";
+			productReference = FA08A3C51FFE50120043DCA3 /* ITL-DashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA08A3CF1FFE50120043DCA3 /* ITL-DashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA08A3DF1FFE50120043DCA3 /* Build configuration list for PBXNativeTarget "ITL-DashboardUITests" */;
+			buildPhases = (
+				FA08A3CC1FFE50120043DCA3 /* Sources */,
+				FA08A3CD1FFE50120043DCA3 /* Frameworks */,
+				FA08A3CE1FFE50120043DCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA08A3D21FFE50120043DCA3 /* PBXTargetDependency */,
+			);
+			name = "ITL-DashboardUITests";
+			productName = "ITL-DashboardUITests";
+			productReference = FA08A3D01FFE50120043DCA3 /* ITL-DashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA08A3A61FFE50120043DCA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Muneeb Awan";
+				TargetAttributes = {
+					FA08A3AD1FFE50120043DCA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FA08A3C41FFE50120043DCA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA08A3AD1FFE50120043DCA3;
+					};
+					FA08A3CF1FFE50120043DCA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA08A3AD1FFE50120043DCA3;
+					};
+				};
+			};
+			buildConfigurationList = FA08A3A91FFE50120043DCA3 /* Build configuration list for PBXProject "ITL-Dashboard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA08A3A51FFE50120043DCA3;
+			productRefGroup = FA08A3AF1FFE50120043DCA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA08A3AD1FFE50120043DCA3 /* ITL-Dashboard */,
+				FA08A3C41FFE50120043DCA3 /* ITL-DashboardTests */,
+				FA08A3CF1FFE50120043DCA3 /* ITL-DashboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA08A3AC1FFE50120043DCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA08A3BF1FFE50120043DCA3 /* LaunchScreen.storyboard in Resources */,
+				FA08A3BC1FFE50120043DCA3 /* Assets.xcassets in Resources */,
+				FA08A3B71FFE50120043DCA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA08A3C31FFE50120043DCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA08A3CE1FFE50120043DCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA08A3AA1FFE50120043DCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA08A3B41FFE50120043DCA3 /* ViewController.swift in Sources */,
+				FA08A3BA1FFE50120043DCA3 /* ITL_Dashboard.xcdatamodeld in Sources */,
+				FA08A3B21FFE50120043DCA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA08A3C11FFE50120043DCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA08A3CA1FFE50120043DCA3 /* ITL_DashboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA08A3CC1FFE50120043DCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA08A3D51FFE50120043DCA3 /* ITL_DashboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA08A3C71FFE50120043DCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA08A3AD1FFE50120043DCA3 /* ITL-Dashboard */;
+			targetProxy = FA08A3C61FFE50120043DCA3 /* PBXContainerItemProxy */;
+		};
+		FA08A3D21FFE50120043DCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA08A3AD1FFE50120043DCA3 /* ITL-Dashboard */;
+			targetProxy = FA08A3D11FFE50120043DCA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA08A3B51FFE50120043DCA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA08A3B61FFE50120043DCA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA08A3BD1FFE50120043DCA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA08A3BE1FFE50120043DCA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA08A3D71FFE50120043DCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA08A3D81FFE50120043DCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA08A3DA1FFE50120043DCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWALM7C786;
+				INFOPLIST_FILE = "ITL-Dashboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITL-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA08A3DB1FFE50120043DCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWALM7C786;
+				INFOPLIST_FILE = "ITL-Dashboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITL-Dashboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA08A3DD1FFE50120043DCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWALM7C786;
+				INFOPLIST_FILE = "ITL-DashboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITL-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITL-Dashboard.app/ITL-Dashboard";
+			};
+			name = Debug;
+		};
+		FA08A3DE1FFE50120043DCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWALM7C786;
+				INFOPLIST_FILE = "ITL-DashboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITL-DashboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITL-Dashboard.app/ITL-Dashboard";
+			};
+			name = Release;
+		};
+		FA08A3E01FFE50120043DCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWALM7C786;
+				INFOPLIST_FILE = "ITL-DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITL-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ITL-Dashboard";
+			};
+			name = Debug;
+		};
+		FA08A3E11FFE50120043DCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWALM7C786;
+				INFOPLIST_FILE = "ITL-DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ITL-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ITL-Dashboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA08A3A91FFE50120043DCA3 /* Build configuration list for PBXProject "ITL-Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA08A3D71FFE50120043DCA3 /* Debug */,
+				FA08A3D81FFE50120043DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA08A3D91FFE50120043DCA3 /* Build configuration list for PBXNativeTarget "ITL-Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA08A3DA1FFE50120043DCA3 /* Debug */,
+				FA08A3DB1FFE50120043DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA08A3DC1FFE50120043DCA3 /* Build configuration list for PBXNativeTarget "ITL-DashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA08A3DD1FFE50120043DCA3 /* Debug */,
+				FA08A3DE1FFE50120043DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA08A3DF1FFE50120043DCA3 /* Build configuration list for PBXNativeTarget "ITL-DashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA08A3E01FFE50120043DCA3 /* Debug */,
+				FA08A3E11FFE50120043DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA08A3B81FFE50120043DCA3 /* ITL_Dashboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA08A3B91FFE50120043DCA3 /* ITL_Dashboard.xcdatamodel */,
+			);
+			currentVersion = FA08A3B91FFE50120043DCA3 /* ITL_Dashboard.xcdatamodel */;
+			path = ITL_Dashboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA08A3A61FFE50120043DCA3 /* Project object */;
+}
