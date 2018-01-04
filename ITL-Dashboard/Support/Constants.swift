@@ -9,5 +9,5 @@
 import Foundation
 
 class Constants {
-    
+    static let reqUrl: String = "https://api.myjson.com"
 }

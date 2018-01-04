@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
     
@@ -27,8 +28,22 @@ class ViewController: UIViewController {
 
     @IBAction func actSubmitBPress(_ sender: UIButton) {
         self.performSegue(withIdentifier: "toViews", sender: nil)
+        
 //        if txtFieldEmailAdd.text != "" && txtFieldPwd.text != "" && CommonClass.sharedInstance.validateEmail(enteredEmail: txtFieldEmailAdd.text!) {
+//            let parameters: Parameters = ["email": txtFieldEmailAdd.text!,
+//                                          "password": txtFieldPwd.text!]
 //
+//            Alamofire.request(Constants.reqUrl, method: .get, parameters: parameters, encoding: JSONEncoding.default)
+//                .downloadProgress(queue: DispatchQueue.global(qos: .utility)) { progress in
+//                    print("Progress: \(progress.fractionCompleted)")
+//                }
+//                .validate { request, response, data in
+//                    // Custom evaluation closure now includes data (allows you to parse data to dig out error messages if necessary)
+//                    return .success
+//                }
+//                .responseJSON { response in
+//                    debugPrint(response)
+//            }
 //        } else {
 //            if txtFieldEmailAdd.text == "" {
 //                CommonClass.sharedInstance.showAlert(title: "Please Enter Email Address", message: "Email field cannot be empty.")

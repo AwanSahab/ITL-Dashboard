@@ -33,6 +33,10 @@
 		FAC91A111FFE71D2000D3128 /* PieGraphDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC91A0F1FFE71D2000D3128 /* PieGraphDetailsTableViewCell.swift */; };
 		FAC91A121FFE71D2000D3128 /* PieGraphDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC91A101FFE71D2000D3128 /* PieGraphDetailsTableViewCell.xib */; };
 		FAC91A151FFE73C0000D3128 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC91A141FFE73C0000D3128 /* DetailsTableViewController.swift */; };
+		FAC91A221FFEB487000D3128 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC91A1F1FFEB486000D3128 /* XYMarkerView.swift */; };
+		FAC91A231FFEB487000D3128 /* RadarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC91A201FFEB486000D3128 /* RadarMarkerView.swift */; };
+		FAC91A241FFEB487000D3128 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC91A211FFEB487000D3128 /* BalloonMarker.swift */; };
+		FAC91A261FFEB948000D3128 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC91A251FFEB948000D3128 /* DayAxisValueFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,10 @@
 		FAC91A0F1FFE71D2000D3128 /* PieGraphDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieGraphDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		FAC91A101FFE71D2000D3128 /* PieGraphDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PieGraphDetailsTableViewCell.xib; sourceTree = "<group>"; };
 		FAC91A141FFE73C0000D3128 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		FAC91A1F1FFEB486000D3128 /* XYMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYMarkerView.swift; sourceTree = "<group>"; };
+		FAC91A201FFEB486000D3128 /* RadarMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarMarkerView.swift; sourceTree = "<group>"; };
+		FAC91A211FFEB487000D3128 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		FAC91A251FFEB948000D3128 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,7 @@
 			children = (
 				FAC919EB1FFE5146000D3128 /* ViewControllers */,
 				FAC919EA1FFE513C000D3128 /* Storyboard */,
+				FAC91A181FFEB3FE000D3128 /* Helper Class */,
 				FAC919EC1FFE5153000D3128 /* Support */,
 				FA08A3C01FFE50120043DCA3 /* Info.plist */,
 			);
@@ -323,6 +332,17 @@
 				FAC91A0D1FFE70C3000D3128 /* Graphs */,
 			);
 			path = xib;
+			sourceTree = "<group>";
+		};
+		FAC91A181FFEB3FE000D3128 /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+				FAC91A251FFEB948000D3128 /* DayAxisValueFormatter.swift */,
+				FAC91A211FFEB487000D3128 /* BalloonMarker.swift */,
+				FAC91A201FFEB486000D3128 /* RadarMarkerView.swift */,
+				FAC91A1F1FFEB486000D3128 /* XYMarkerView.swift */,
+			);
+			path = "Helper Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -625,11 +645,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC91A231FFEB487000D3128 /* RadarMarkerView.swift in Sources */,
+				FAC91A261FFEB948000D3128 /* DayAxisValueFormatter.swift in Sources */,
 				FAC919F11FFE56E1000D3128 /* Constants.swift in Sources */,
+				FAC91A221FFEB487000D3128 /* XYMarkerView.swift in Sources */,
 				FAC919F61FFE595B000D3128 /* DashListTableViewCell.swift in Sources */,
 				FAC91A111FFE71D2000D3128 /* PieGraphDetailsTableViewCell.swift in Sources */,
 				FA08A3B41FFE50120043DCA3 /* ViewController.swift in Sources */,
 				FA08A3BA1FFE50120043DCA3 /* ITL_Dashboard.xcdatamodeld in Sources */,
+				FAC91A241FFEB487000D3128 /* BalloonMarker.swift in Sources */,
 				FAC91A061FFE6A85000D3128 /* CustomerDetailsTableViewCell.swift in Sources */,
 				FA08A3B21FFE50120043DCA3 /* AppDelegate.swift in Sources */,
 				FAC91A001FFE66C2000D3128 /* CustomerTableViewCell.swift in Sources */,
